@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RWTFlickrSearchViewController">
+            <connections>
+                <outlet property="btnLogin" destination="F5H-Yz-Ieb" id="QJ5-02-PEZ"/>
+                <outlet property="btnSearch" destination="c8R-lZ-vdr" id="OHb-sy-shv"/>
+                <outlet property="loadingView" destination="vsb-3w-deQ" id="E3V-zH-bCf"/>
+                <outlet property="textfiledSearch" destination="D1X-AV-67i" id="4Sw-m5-3Lm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0eE-EX-d1u">
+                    <rect key="frame" x="0.0" y="30" width="375" height="100"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D1X-AV-67i">
+                            <rect key="frame" x="20" y="30" width="267" height="40"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8R-lZ-vdr">
+                            <rect key="frame" x="295" y="30" width="60" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="BP4-bw-Jy3"/>
+                                <constraint firstAttribute="height" constant="40" id="xYk-uv-tXg"/>
+                            </constraints>
+                            <state key="normal" title="Go"/>
+                        </button>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="vsb-3w-deQ">
+                            <rect key="frame" x="259" y="40" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="iGM-0w-5BA"/>
+                                <constraint firstAttribute="width" constant="20" id="xfr-Zc-Rrf"/>
+                            </constraints>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="D1X-AV-67i" firstAttribute="top" secondItem="c8R-lZ-vdr" secondAttribute="top" id="5rD-2i-13j"/>
+                        <constraint firstItem="vsb-3w-deQ" firstAttribute="trailing" secondItem="D1X-AV-67i" secondAttribute="trailing" constant="-8" id="6nn-bY-Ovj"/>
+                        <constraint firstItem="D1X-AV-67i" firstAttribute="leading" secondItem="0eE-EX-d1u" secondAttribute="leading" constant="20" id="CfF-6A-Hrw"/>
+                        <constraint firstAttribute="height" constant="100" id="IcF-8J-Dot"/>
+                        <constraint firstItem="D1X-AV-67i" firstAttribute="bottom" secondItem="c8R-lZ-vdr" secondAttribute="bottom" id="OGL-lW-4El"/>
+                        <constraint firstAttribute="trailing" secondItem="c8R-lZ-vdr" secondAttribute="trailing" constant="20" id="U9C-bt-tWS"/>
+                        <constraint firstItem="c8R-lZ-vdr" firstAttribute="centerY" secondItem="0eE-EX-d1u" secondAttribute="centerY" id="dZA-Ml-czr"/>
+                        <constraint firstItem="vsb-3w-deQ" firstAttribute="centerY" secondItem="D1X-AV-67i" secondAttribute="centerY" id="kAJ-S8-93J"/>
+                        <constraint firstItem="c8R-lZ-vdr" firstAttribute="leading" secondItem="D1X-AV-67i" secondAttribute="trailing" constant="8" id="qs2-aa-Gam"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5H-Yz-Ieb">
+                    <rect key="frame" x="20" y="170" width="335" height="30"/>
+                    <state key="normal" title="弹出登录"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="0eE-EX-d1u" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="topMargin" constant="10" id="0Ex-3F-MuD"/>
+                <constraint firstItem="0eE-EX-d1u" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Gi3-ej-uk8"/>
+                <constraint firstItem="F5H-Yz-Ieb" firstAttribute="top" secondItem="0eE-EX-d1u" secondAttribute="bottom" constant="40" id="NPz-Nf-Ioy"/>
+                <constraint firstItem="F5H-Yz-Ieb" firstAttribute="leading" secondItem="D1X-AV-67i" secondAttribute="leading" id="Nv5-vl-IVU"/>
+                <constraint firstItem="F5H-Yz-Ieb" firstAttribute="trailing" secondItem="c8R-lZ-vdr" secondAttribute="trailing" id="qAw-IQ-K4K"/>
+                <constraint firstAttribute="trailing" secondItem="0eE-EX-d1u" secondAttribute="trailing" id="xlb-ko-KoZ"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,38 @@
+PODS:
+  - LinqToObjectiveC (2.1.0)
+  - objectiveflickr (2.0.4)
+  - ReactiveObjC (3.1.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SVProgressHUD (2.2.5)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - LinqToObjectiveC (~> 2.1.0)
+  - objectiveflickr (~> 2.0.4)
+  - ReactiveObjC (~> 3.1.0)
+  - SDWebImage (~> 4.3.3)
+  - SVProgressHUD (~> 2.2.5)
+  - YYModel (~> 1.0.4)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - LinqToObjectiveC
+    - objectiveflickr
+    - ReactiveObjC
+    - SDWebImage
+    - SVProgressHUD
+    - YYModel
+
+SPEC CHECKSUMS:
+  LinqToObjectiveC: f0e40c137a458b6b9725c4c7b6a575c0c72e3aec
+  objectiveflickr: aed169dae1eb5a5550ca78f7efd7ccde2e4c26e5
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: eca671becc964dad3a7a9b11e0bc5db583627407
+
+COCOAPODS: 1.5.0

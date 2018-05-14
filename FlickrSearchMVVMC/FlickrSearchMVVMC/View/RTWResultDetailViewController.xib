@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RTWResultDetailViewController">
+            <connections>
+                <outlet property="imageHeigth" destination="JSn-7H-d32" id="jky-3U-T6U"/>
+                <outlet property="imageViewPreview" destination="jJP-XO-0Lq" id="h9k-aI-lZi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jJP-XO-0Lq">
+                    <rect key="frame" x="16" y="40" width="343" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="JSn-7H-d32"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailingMargin" secondItem="jJP-XO-0Lq" secondAttribute="trailing" id="6Am-GY-fks"/>
+                <constraint firstItem="jJP-XO-0Lq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="PVO-eg-l9D"/>
+                <constraint firstItem="jJP-XO-0Lq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="topMargin" constant="20" id="V57-O6-TFN"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

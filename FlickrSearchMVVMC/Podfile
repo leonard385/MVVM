@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+target 'FlickrSearchMVVMC' do
+pod 'ReactiveObjC','~>3.1.0'
+pod 'objectiveflickr','~>2.0.4'
+pod 'LinqToObjectiveC','~>2.1.0'
+pod 'SDWebImage','~>4.3.3'
+pod 'YYModel', '~> 1.0.4'
+pod 'SVProgressHUD', '~> 2.2.5'
+end
