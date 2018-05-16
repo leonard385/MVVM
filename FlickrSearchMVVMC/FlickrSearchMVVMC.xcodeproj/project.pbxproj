@@ -143,7 +143,6 @@
 		F7DA1F1320A1DE15006EAC0A /* RWTFlickrSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RWTFlickrSearchViewController.xib; sourceTree = "<group>"; };
 		F7DA1F1620A1E130006EAC0A /* RWTFlickrSearchViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTFlickrSearchViewModel.h; sourceTree = "<group>"; };
 		F7DA1F1720A1E130006EAC0A /* RWTFlickrSearchViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTFlickrSearchViewModel.m; sourceTree = "<group>"; };
-		F7DA1F1920A1E1EB006EAC0A /* RWTFlickrSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTFlickrSearch.h; sourceTree = "<group>"; };
 		F7DA1F1A20A1E26C006EAC0A /* RWTFlickrSearchImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTFlickrSearchImpl.h; sourceTree = "<group>"; };
 		F7DA1F1B20A1E26C006EAC0A /* RWTFlickrSearchImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTFlickrSearchImpl.m; sourceTree = "<group>"; };
 		F7DA1F1D20A1E9D1006EAC0A /* RWTFlickrSearchResults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTFlickrSearchResults.h; sourceTree = "<group>"; };
@@ -259,7 +258,6 @@
 		F7C5EB3720A1D748006B562F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F7DA1F1920A1E1EB006EAC0A /* RWTFlickrSearch.h */,
 				F7DA1F1A20A1E26C006EAC0A /* RWTFlickrSearchImpl.h */,
 				F7DA1F1B20A1E26C006EAC0A /* RWTFlickrSearchImpl.m */,
 				F7CC2BD420A2D6A800AF3EBB /* RWTAuthenticationImpl.h */,

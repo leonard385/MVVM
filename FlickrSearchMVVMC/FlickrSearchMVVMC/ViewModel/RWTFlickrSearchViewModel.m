@@ -7,7 +7,6 @@
 //
 
 #import "RWTFlickrSearchViewModel.h"
-#import "RWTFlickrSearch.h"
 #import "RWTFlickrSearchImpl.h"
 @interface RWTFlickrSearchViewModel()
 

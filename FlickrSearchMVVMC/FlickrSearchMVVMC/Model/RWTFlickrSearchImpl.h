@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RWTFlickrSearch.h"
-@interface RWTFlickrSearchImpl : NSObject<RWTFlickrSearch>
-
+@interface RWTFlickrSearchImpl : NSObject
++ (RACSignal *)flickrSearchSignal:(NSString *)searchString;
++ (RACSignal *)flickrImageMetadata:(NSString *)photoId;
 @end
